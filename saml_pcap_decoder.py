@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 SAML PCAP Decoder
-Extracts SAMLRequest and SAMLResponse parameters from pcap files,
-decodes base64, strips newlines, and outputs to CSV for analysis.
+Synopsis: Extracts SAMLRequest and SAMLResponse parameters from pcap files, decodes base64, strips newlines, and outputs to CSV for analysis.
+Author: John Lampe {john.lampe|dmitry.chan}@gmail.com
 """
 
 import base64
