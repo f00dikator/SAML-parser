@@ -5,6 +5,9 @@ Synopsis: Extracts SAMLRequest and SAMLResponse parameters from pcap files, deco
 Author: John Lampe {john.lampe|dmitry.chan}@gmail.com
 """
 
+import warnings
+warnings.filterwarnings('ignore', category=DeprecationWarning)
+
 import base64
 import csv
 import sys
